@@ -1,0 +1,11 @@
+#Without formatted strings
+first = 'alex'
+last = 'lij'
+message= first + ' [' + last + '] is a coder'
+print(message)
+
+#With formatted strings
+first = 'alex'
+last = 'lij'
+msg= f'{first} [{last}] is a coder'
+print(msg)
